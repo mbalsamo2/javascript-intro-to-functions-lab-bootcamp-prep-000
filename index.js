@@ -20,15 +20,8 @@ function sayHiToGrandma(string) {
   var uppercase = "HELLO"
   var lowercase = "hello"
   if (string === lowercase) {
-    greeting = "Good day";
+   return "I can\'t hear you!"
 } else {
-    greeting = "Good evening";
+   return "YES INDEED"
 }
-  string.toLowerCase 
-  return "I can\'t hear you!"
-}
-
-function sayHiToGrandma(string) {
-  string.toUpperCase
-  return "YES INDEED!"
 }
